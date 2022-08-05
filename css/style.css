@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body{
+    background-color:white;
+    margin: 0;
+}
+/* styling the nav */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    color: white;
+    height: 50px;
+}
+
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.menu-list li{
+    margin-right: 30px;
+    font-size: 18px;
+    font-family: 'Oswald'
+}
+
+.nav-bar h5{
+    font-size: 24px;
+    margin-left: 10px;
+    font-family:'Oswald';
+    font-weight: bold;
+}
+
+.hero{
+    background-image: url('https://cdn.pixabay.com/photo/2021/11/15/11/00/barber-shop-6797761_1280.jpg');
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.hero-wrapper{
+width: 40%;
+background-color: rgba(255, 255, 255, 0.498);
+margin: auto;
+padding: 20px;
+padding-top: 180px;
+text-align: center;
+}
+
+.hero-wrapper h1 {
+ background-color: black;
+ color: white;
+    text-transform: uppercase;
+    width: fit-content;
+margin: auto;
+font-size: 40px;
+padding: 0.5rem;
+
+}
+
+
+.hero-wrapper h1 .fine{
+    font-family: 'Oswald';
+
+}
+.hero-wrapper h1 .grooming{
+    background-color: red;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Oswald';
+}
+
+.hero-wrapper p{
+
+    color: black;
+    font-size: 1.5rem;
+    
+}
+
+.hero-wrapper button{
+
+    padding-left: 20px;
+    padding: auto;
+    padding-right: 20px;
+background-color: black;
+color: white;
+font-size: 18px;
+font-family: 'Oswald';
+border: 1px solid black;
+border-radius: 10px;
+text-align: center;
+
+}
+
